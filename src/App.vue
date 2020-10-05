@@ -10,6 +10,7 @@
     <router-link v-for="item in types" :key="item" :to="{name:'List',query: {type:item}}">{{item}}</router-link>
     <router-view></router-view>
   </div>
+    
 </template>
 
 <script>
